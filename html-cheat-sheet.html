@@ -4,14 +4,13 @@
         <meta charset='utf-8'>
         <title>HTML Cheat Sheet</title>    
     </head>
-    <body>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-    </body>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6> 
 
     <!-- Paragraph -->
     <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi numquam esse quia accusantium 
@@ -50,7 +49,7 @@
     </ol>
 
     <!-- Table -->
-     <table>
+    <table>
         <thead>
             <tr>
                 <th>Name</th>
@@ -75,8 +74,81 @@
                 <td>21</td>
             </tr>
         </tbody>
-     </table>
-     <div style="margin-top:500px"></div>
+    </table>
+
+    <br>
+    <!-- line break and horizontal rule  -->
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name:</label>
+            <input type = "text" name = "firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name:</label>
+            <input type = "text" name = "lastName" placeholder="Enter last name">
+        </div>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input type = "text" name = "email" placeholder = "enter email">
+        </div>
+        <br>
+        <div>
+            <label>Message:</label>
+            <textarea name = "message" rows = "5" cols = "30" placeholder="Enter a message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender:</label>
+            <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+                <input type="number" name = "age" value = "25">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">    
+        </div>
+        <div>
+            <!-- get submit to process.php -->
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+
+    <button click="someFunction">Click Me</button>
+
+    <img src="images/nightlife.png" alt = "night life" width="30%"/>
+
+    <!-- Quotations -->
+     <blockquote cite="http://www.codesmith.io">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias 
+        magnam suscipit, aliquam ipsam beatae rem fugit harum exercitationem 
+        placeat praesentium omnis id perspiciatis minus quasi distinctio nihil 
+        ipsum similique, unde error debitis? Ab dicta, quo consectetur vero 
+        eligendi nemo unde laborum aliquam illum minus. Dolor tempore, earum 
+        ex deserunt quod quae consequatur sapiente est pariatur rem laudantium 
+        laborum iste dignissimos ipsam, maiores accusamus ducimus delectus adipisci 
+        atque in quam sint debitis illum! Nulla, cupiditate. Dolorum ex sapiente 
+     </blockquote>
+     
+     <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+     
+     <p><cite>HTML crash course</cite> by Brad Traversy</p>
+     
+    <div style="margin-top:500px"></div>      
+</body>
 </html>
 
 
